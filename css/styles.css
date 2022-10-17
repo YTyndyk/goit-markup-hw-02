@@ -11,6 +11,7 @@
     --title-color: #212121;
     --accent-color: #2196F3;
     --hover-focus-color: tomato;
+    --white-color: #FFFFFF;
 
 }
 .body{
@@ -37,6 +38,9 @@ ul{
 .site-nav a:focus {
     color: var(--hover-focus-color);
 }
+.site-nav a.current {
+    color: #000000;
+}
 .contacts-nav a {
     color: var(--accent-color);
 }
@@ -44,9 +48,10 @@ ul{
 .contacts-nav a:focus {
     color: var(--hover-focus-color);
 }
+
 /* герой */
 .hero-title {
-    color:  #FFFFFF;
+    color: var(--white-color);
 }
 .hero{
     background-color: #2F303A;
@@ -72,5 +77,14 @@ ul{
     background-color: #2F303A;
 }
 .footer {
-    color: #FFFFFF;
+    color: var(--white-color);
+}
+/* Кнопка */
+.button {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+}
+/* Портфоліо */
+.title {
+    color: var(--title-color)
 }
