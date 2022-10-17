@@ -6,17 +6,24 @@
 /* колір секції наша команда #F5F4FA */
 /* колір футера #2F303A */
 
+:root {
+    --primary-text-color: #757575;
+    --title-color: #212121;
+    --accent-color: #2196F3;
+    --hover-focus-color: tomato;
+
+}
 .body{
-    color: #757575;
+    color: var(--primary-text-color);
 }
 .logo{
     color: #000000;
 }
 .logo:hover {
-    color: orange;
+    color: var(--hover-focus-color);
 }
 .logo:focus {
-    color: orange;
+    color: var(--hover-focus-color);
 }
 
 ul{
@@ -24,18 +31,18 @@ ul{
 }
 /* site-nav */
 .site-nav a {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 .site-nav a:hover,
 .site-nav a:focus {
-    color: orange;
+    color: var(--hover-focus-color);
 }
 .contacts-nav a {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 .contacts-nav a:hover,
 .contacts-nav a:focus {
-    color: orange;
+    color: var(--hover-focus-color);
 }
 /* герой */
 .hero-title {
@@ -47,17 +54,17 @@ ul{
 
 /* секції */
 .section-title {
-    color: #212121;
+    color: var(--title-color);
 }
 .title {
-    color: #212121;
+    color: var(--title-color);
 }
 /* секцыя наша команда */
 .link {
-    color: #212121;
+    color: var(--title-color);
 }
 .section-team {
-    color: #212121;
+    color: var(--title-color);
     background: #F5F4FA;
 }
 /* підвал */
