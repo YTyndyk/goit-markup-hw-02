@@ -91,14 +91,21 @@ ul{
     color: var(--white-color);
 }
 /* Кнопка */
-.button {
+.button-main {
     color: var(--white-color);
     background-color: var(--accent-color);
 }
-.button:hover,.button:focus,.button:active {
+.button-main:hover,.button:focus,.button:active {
 color: var(--focus-color);
 }
+.button-secondary {
+    color: var(--title-color);
+    background-color: var(--white-color);
+}
+.button-secondary:hover,.button-secondary:focus,.button-secondary:active {
+    color: var(--focus-color);
 /* Портфоліо */
-.title {
+.title {            
     color: var(--title-color)
 }
+            
