@@ -10,7 +10,7 @@
     --primary-text-color: #757575;
     --title-color: #212121;
     --accent-color: #2196F3;
-    --hover-focus-color: tomato;
+    --focus-color: tomato;
     --white-color: #FFFFFF;
 
 }
@@ -20,33 +20,41 @@
 .logo{
     color: #000000;
 }
+.logo-color {
+    color: var(--accent-color);
+}
 .logo:hover {
-    color: var(--hover-focus-color);
+    color: var(--accent-color);
 }
 .logo:focus {
-    color: var(--hover-focus-color);
+    color: var(--focus-color);
 }
 
 ul{
     list-style: none;
 }
 /* site-nav */
+
 .site-nav a {
+    color: var(--title-color);
+    }
+.site-nav a:hover {
     color: var(--accent-color);
 }
-.site-nav a:hover,
 .site-nav a:focus {
-    color: var(--hover-focus-color);
+    color: var(--focus-color);
 }
 .site-nav a.current {
-    color: #000000;
-}
-.contacts-nav a {
     color: var(--accent-color);
 }
-.contacts-nav a:hover,
+.contacts-nav a {
+    color: var(--primary-text-color);
+}
+.contacts-nav a:hover {
+    color: var(--accent-color);
+}
 .contacts-nav a:focus {
-    color: var(--hover-focus-color);
+    color: var(--focus-color);
 }
 
 /* герой */
@@ -64,7 +72,8 @@ ul{
 .title {
     color: var(--title-color);
 }
-/* секцыя наша команда */
+/* секція наша команда */
+    
 .link {
     color: var(--title-color);
 }
@@ -83,6 +92,9 @@ ul{
 .button {
     color: var(--white-color);
     background-color: var(--accent-color);
+}
+.button:hover,.button:focus,.button:active {
+color: var(--focus-color);
 }
 /* Портфоліо */
 .title {
