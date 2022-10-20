@@ -20,19 +20,27 @@
 }
 .logo{
     color: #000000;
+}
+.logo-color {
+    color: var(--accent-color);
+    font-family: raleway,sans-serif;
+    letter-spacing: 0.03em;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;      
+}
+.logo-studio {  
+    color: var(--title-color);
     font-family: raleway,sans-serif;
     letter-spacing: 0.03em;
 font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
 }
-.logo-color {
+.logo-studio:hover {
     color: var(--accent-color);
 }
-.logo:hover {
-    color: var(--accent-color);
-}
-.logo:focus {
+.logo-studio:focus {        
     color: var(--focus-color);
 }
 .link {
@@ -78,6 +86,13 @@ letter-spacing: 0.02em;
 /* герой */
 .hero-title {
     color: var(--white-color);
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
 }
 .hero{
     background-color: #2F303A;
@@ -86,14 +101,38 @@ letter-spacing: 0.02em;
 /* секції */
 .section-title {
     color: var(--title-color);
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+
 }
 .title {
     color: var(--title-color);
+    font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+text-transform: uppercase;
+}
+.peculiarities-text {
+    font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
 }
 /* секція наша команда */
     
 .link {
     color: var(--title-color);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+
+}
+.profesion {
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
 }
 .section-team {
     color: var(--title-color);
@@ -102,15 +141,45 @@ letter-spacing: 0.02em;
 /* підвал */
 .footer {
     background-color: #2F303A;
-}
-.footer {
     color: var(--white-color);
+    font-family: raleway,sans-serif;
+    letter-spacing: 0.03em;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
 }
+.footer:hover {
+    color: var(--accent-color)
+}
+.footer:focus {
+    color: var(--focus-color)
+}           
+.adress {
+    color: var(--white-color)
+}   
+.adress:hover {
+    color: var(--accent-color)
+}
+.adress:focus {
+    color: var(--focus-color)           
+}
+.map {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;  
+}
+.info {
+    color: rgba(255, 255, 255, 0.6);
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+}
+
 /* Кнопка */
 .button-main {
     color: var(--white-color);
-    background-color: var(--accent-color);
-    font-family: inherit;
+background-color: var(--accent-color);
+ font-family: inherit;
 
 font-weight: 700;
 font-size: 16px;
@@ -131,7 +200,28 @@ color: var(--focus-color);
 .button-secondary {
     color: var(--title-color);
     background-color: var(--white-color);
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.63;
+letter-spacing: 0.03em;
 }
-.button-secondary:hover,.button-secondary:focus,.button-secondary:active {
-    color: var(--focus-color);
+.button-secondary:hover {
+    color: var(--accent-color)
+}
+.button-secondary:focus,.button-secondary:active {
+        color: var(--focus-color);}
 /* Портфоліо */
+.title-portfolio {
+    color: var(--title-color);
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+}
+.project-item {
+    color: var(--primary-text-color);
+font-weight: 400;
+font-size: 16px;
+line-height: 1.88;
+}
