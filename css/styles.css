@@ -12,14 +12,19 @@
     --accent-color: #2196F3;
     --focus-color: tomato;
     --white-color: #FFFFFF;
-
 }
 .body{
     color: var(--primary-text-color);
     font-family: roboto, sans-serif;
+    letter-spacing: 0.03em;
 }
 .logo{
     color: #000000;
+    font-family: raleway,sans-serif;
+    letter-spacing: 0.03em;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
 }
 .logo-color {
     color: var(--accent-color);
@@ -40,6 +45,10 @@ ul{
 
 .site-nav a {
     color: var(--title-color);
+    font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
     }
 .site-nav a:hover {
     color: var(--accent-color);
@@ -52,6 +61,12 @@ ul{
 }
 .contacts-nav a {
     color: var(--primary-text-color);
+
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+
 }
 .contacts-nav a:hover {
     color: var(--accent-color);
@@ -95,9 +110,23 @@ ul{
 .button-main {
     color: var(--white-color);
     background-color: var(--accent-color);
+    font-family: inherit;
+
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.06em;
 }
 .button-main:hover,.button:focus,.button:active {
 color: var(--focus-color);
+}
+.button {
+    color: var(--white-color);
+    background-color: var(--accent-color); 
+    font-family: inherit;
+}
+.button:hover,.button:focus,.button:active {
+    color: var(--focus-color);
 }
 .button-secondary {
     color: var(--title-color);
