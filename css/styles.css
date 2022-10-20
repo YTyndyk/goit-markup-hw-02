@@ -15,7 +15,7 @@
 }
 .body{
     color: var(--primary-text-color);
-    font-family: roboto, sans-serif;
+    font-family: "roboto", sans-serif;
     letter-spacing: 0.03em;
 }
 .logo{
@@ -23,7 +23,7 @@
 }
 .logo-color {
     color: var(--accent-color);
-    font-family: raleway,sans-serif;
+    font-family: "raleway",sans-serif;
     letter-spacing: 0.03em;
 font-weight: 700;
 font-size: 26px;
