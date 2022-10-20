@@ -16,6 +16,7 @@
 }
 .body{
     color: var(--primary-text-color);
+    font-family: roboto, sans-serif;
 }
 .logo{
     color: #000000;
@@ -105,7 +106,3 @@ color: var(--focus-color);
 .button-secondary:hover,.button-secondary:focus,.button-secondary:active {
     color: var(--focus-color);
 /* Портфоліо */
-.title {            
-    color: var(--title-color)
-}
-            
