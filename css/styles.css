@@ -49,6 +49,10 @@ ul {
 .logo-footer {
 	color: var(--white-color);
 }
+.logo-footer:hover,
+.logo-footer:focus {
+    color: var(--accent-color);
+}
 /* site-nav */
 .header-nav {
 	background-color: var(--white-color);
