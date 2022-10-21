@@ -10,44 +10,37 @@
     --primary-text-color: #757575;
     --title-color: #212121;
     --accent-color: #2196F3;
-    --focus-color: tomato;
+    --focus-color: #2196F3;
     --white-color: #FFFFFF;
 }
 .body{
     color: var(--primary-text-color);
     font-family: "roboto", sans-serif;
     letter-spacing: 0.03em;
+
 }
-.logo{
-    color: #000000;
-}
-.logo-color {
+.logo.link {
     color: var(--accent-color);
-    font-family: "raleway",sans-serif;
-    letter-spacing: 0.03em;
-font-weight: 700;
-font-size: 26px;
-line-height: 1.19;      
-}
-.logo-studio {  
-    color: var(--title-color);
-    font-family: raleway,sans-serif;
-    letter-spacing: 0.03em;
+  font-family: 'Raleway', sans-serif;
 font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
+letter-spacing: 0.03em; 
 }
-.logo-studio:hover {
+.logo-header:hover,.logo-header:focus {
     color: var(--accent-color);
 }
-.logo-studio:focus {        
-    color: var(--focus-color);
+.logo-header {
+     color: var(--title-color)
 }
 .link {
     text-decoration: none;
 }
 ul{
     list-style: none;
+}
+.logo-footer {
+    color: var(--white-color);
 }
 /* site-nav */
 
@@ -104,7 +97,18 @@ text-transform: uppercase;
 font-weight: 700;
 font-size: 36px;
 line-height: 1.17;
-
+}
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
 .title {
     color: var(--title-color);
@@ -164,15 +168,21 @@ line-height: 1.19;
     color: var(--focus-color)           
 }
 .map {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;  
-}
-.info {
-    color: rgba(255, 255, 255, 0.6);
+    font-family: 'Roboto';
+font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
+
+}
+.info {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+
+color: rgba(255, 255, 255, 0.6);
 }
 
 /* Кнопка */
@@ -186,31 +196,23 @@ line-height: 1.88;
 letter-spacing: 0.06em;
 }
 .button-main:hover,.button:focus,.button:active {
-color: var(--focus-color);
-}
-.button {
-    color: var(--white-color);
-    background-color: var(--accent-color); 
-    font-family: inherit;
-}
-.button:hover,.button:focus,.button:active {
-    color: var(--focus-color);
+color: var(--primary-text-color);
 }
 .button-secondary {
     color: var(--title-color);
     background-color: var(--white-color);
     font-family: inherit;
-font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.63;
 letter-spacing: 0.03em;
 }
-.button-secondary:hover {
-    color: var(--accent-color)
-}
-.button-secondary:focus,.button-secondary:active {
-        color: var(--focus-color);}
+
+.button-secondary:focus,.button-secondary:hover,.button-secondary:active {
+        background-color: var(--accent-color);
+        color: var(--white-color);
+
+    }
 /* Портфоліо */
 .title-portfolio {
     color: var(--title-color);
